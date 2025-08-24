@@ -1,0 +1,125 @@
+.border{
+    border: 2px solid  red;
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.songList {
+    height: 544px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
+.songList ul li {
+    list-style-type: decimal;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: 1px solid rgba(146, 143, 143, 0.491);
+    margin: 12px 0;
+    padding: 13px;
+    border-radius: 5px;
+}
+.seekbar {
+    height: 4px;
+    width: 98%;
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 8px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: black;
+    position: relative;
+    bottom: 5px;
+    left: 0%;
+    transition: left 0.5s;
+}
+.songList ul {
+    padding: 0 12px;
+}
+
+.songList ul li {
+    font-size: 10px;
+  list-style-type: decimal;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  padding: 13px;
+  border: 1px solid rgba(146, 143, 143, 0.491);
+  margin: 12px 0;
+  border-radius: 5px;
+}
+
+.timevol {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.songinfo {
+    color: rgb(192, 49, 49);
+    padding: 0 12px;
+    width: 250px;
+    height: 20px;
+}
+
+
+
+
+.volume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+.range input{
+    cursor: pointer;
+}
+
+.abovebar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    color:aquamarine;
+    width:  160px;
+    top: 0%;
+    bottom: 20px;
+    font-size: 15px;
+    
+}
+.songtime {
+    width: 125px;
+    color: rgb(20, 181, 119);
+    padding: 0 12px;
+    height: 20px;
+}

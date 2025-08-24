@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.left {
+    padding: 14px;
+    width: 25vw
+}
+
+.right {
+    width: 75vw
+}
+
+.border {
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.home ul li {
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top: 14px;
+
+}
+
+.bg-color {
+    background-color: rgba(5, 3, 3, 0.92);
+    color: rgb(251, 251, 251);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.home {
+    padding: 10px;
+}
+
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.heading img {
+    width: 30px;
+}
+
+.footer {
+    display: flex;
+    font-size: 8px;
+    color: grey;
+    gap: 5px;
+    position: absolute;
+    bottom: 0%;
+
+    padding: 5px 0;
+
+}
+
+.footer a {
+    color: grey;
+}
+
+.library {
+    min-height: 100vh;
+    position: relative;
+    margin:10px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.right {
+    margin: 5px
+}
+
+.bg-grey {
+    background-color: rgb(1, 0, 0);
+
+}
+
+.card img {
+    width: 125px;
+    
+    object-fit: fill;
+}
+
+.spotifyPlaylists {
+    padding: 16px;
+}
+
+.ca .spotifyPlaylists h1 {
+    padding: 16px;
+}
+
+.card {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+
+
+    background-color: rgb(71, 69, 69);
+
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
+
+.cardContainer {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh;
+
+}
+.play{
+        position: absolute;
+    bottom: 80px;
+    right: 17px;
+    
+    background: #1db954;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    opacity: 0;
+    transition: all  1s ease-in-out;
+
+
+}
+
+
+.signupbtn {
+    background-color: rgb(34 34 34);
+    color: rgb(156, 148, 148);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupbtn:hover {
+    font-size: 17px;
+    color: white
+}
+
+ .button loginbtn {
+    background-color: white;
+    border-radius: 21px;
+    color: rgb(119, 115, 115);
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+.spotifyPlaylists{
+    position: relative;
+     bottom: 0;
+}
+
+.cardContainer {
+  padding-bottom: 60px;
+}
+.playba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    filter: invert(1);
+    background: #cccaca;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px;
+    width: 70vw;
+    min-height: 25px;
+}
